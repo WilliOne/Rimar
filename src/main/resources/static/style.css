@@ -1,0 +1,143 @@
+header{z-index: 1;
+    position:fixed;
+    top: 0px;
+    left:0px;   
+    padding: 10px;
+    background-color: lightseagreen;    
+    /*height:80px;*/
+    
+    width:100%;   
+    color: white;
+    font-size:20px;
+    font-weight: normal;
+    font-family: Impact, "Segoe UI";  
+
+    
+    }
+div.navbar{
+  width:600px;
+  margin: auto  ;
+  
+  background-color: lightseagreen;
+  
+  }
+  
+ul.navbar {
+    list-style-type: none; 
+   margin: 0;
+   padding:0;
+}
+
+li.navitem {
+   float: left;
+}
+
+header li a { 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+    background-color: rosybrown;
+}
+
+header .active {
+    background-color: #4CAF50;
+}
+
+body {
+  background: url(body_background.jpg);
+}
+
+.container {
+  margin: 80px auto;
+  width: 640px;
+}
+
+.login {
+  position: relative;
+  margin: 150px auto 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  outline: 5px solid #c4c4c4;
+}
+
+.login h1 {
+  margin: -5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color:grey;
+}
+
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 280px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4;
+  border-radius: 2px;
+  outline: 5px solid #eff4f7;
+}
+.log{
+  float: right;
+  padding: 0  16px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  background: #cde5ef;
+  border: 1px;
+  border-radius: 22px;
+}
+.reg{
+padding: 0px 10px;
+height: 30px;
+border:1px;
+border-radius: 22px;
+font-size: 12px;
+color: #527881;
+background: #cde5ef;
+font-weight: bold;
+}
+.reg1{
+text-align: center;
+padding: 0px 10px;
+height: 30px;
+border:1px;
+border-radius: 22px;
+font-size: 12px;
+color: #527881;
+background: #cde5ef;
+font-weight: bold;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
